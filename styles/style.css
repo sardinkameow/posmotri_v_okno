@@ -89,6 +89,7 @@ fieldset {
   width: fit-content;
   cursor: pointer;
   gap: 5px;
+  font-family: Fira Sans Condensed;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -126,6 +127,7 @@ fieldset {
   border-right: none;
   width: 225px;
   height: 27px;
+  padding: 0;
 }
 
 .search-form__textfield:focus {
@@ -156,6 +158,16 @@ fieldset {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
+}
+
+.search-form__checkbox:active+.search-form__pseudo-checkbox::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  margin-top: 1px;
+  margin-left: 1px;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::before {
@@ -304,6 +316,7 @@ button:active {
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-description-container {
