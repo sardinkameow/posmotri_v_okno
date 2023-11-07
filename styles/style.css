@@ -153,7 +153,6 @@ fieldset {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -165,7 +164,6 @@ fieldset {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  position: absolute;
   margin-top: 1px;
   margin-left: 1px;
 }
